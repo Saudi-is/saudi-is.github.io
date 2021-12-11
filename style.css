@@ -13,15 +13,22 @@ nav ol:last-of-type, nav ul:last-of-type {
 nav ol:last-of-type, nav ul:last-of-type {
   margin-right: 0;
 }
+
 nav ol:first-of-type, nav ul:first-of-type {
   padding-left: calc(var(--spacing) * .5);
 }
-nav li.brand {
+
+nav li.brand, nav li.brand > a {
   display: inline-flex;
   width: 7.5rem;
   align-items: center;
 }
-nav li.brand > img {
+
+li.brand > a:focus {
+  --background-color: transparent;
+}
+
+nav li.brand img  {
   max-height: 2rem;
 }
 

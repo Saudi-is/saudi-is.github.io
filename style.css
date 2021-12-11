@@ -3,11 +3,11 @@
 }
 
 * {
-  transition: 0.75s ease;
+  transition: 0.55s background-color ease;
 }
 
 html, body {
-  transition: background-color 0.65s ease;
+  transition: background-color 0.50s ease;
 }
 
 #app {

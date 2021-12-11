@@ -1,0 +1,30 @@
+:root {
+  --primary: #43a047;
+}
+
+nav ol:last-of-type, nav ul:last-of-type {
+  padding-right: calc(var(--spacing) * -.5);
+}
+
+nav ol:last-of-type, nav ul:last-of-type {
+  margin-right: 0;
+}
+nav ol:first-of-type, nav ul:first-of-type {
+  padding-left: calc(var(--spacing) * .5);
+}
+nav li.brand {
+  display: inline-flex;
+  width: 7.5rem;
+  align-items: center;
+}
+nav li.brand > img {
+  max-height: 2rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.card > img {
+  max-height: 440px;
+}

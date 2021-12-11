@@ -2,8 +2,12 @@
   --primary: #43a047;
 }
 
+#app {
+  text-align: center;
+}
+
 nav ol:last-of-type, nav ul:last-of-type {
-  padding-right: calc(var(--spacing) * -.5);
+  padding-right: calc(var(--spacing) * .5);
 }
 
 nav ol:last-of-type, nav ul:last-of-type {

@@ -2,6 +2,14 @@
   --primary: #43a047;
 }
 
+* {
+  transition: 0.75s ease;
+}
+
+html, body {
+  transition: background-color 0.65s ease;
+}
+
 #app {
   text-align: left;
 }

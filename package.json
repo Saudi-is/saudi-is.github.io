@@ -2,7 +2,7 @@
   "name": "saudi",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
@@ -12,6 +12,7 @@
     "vite": "^2.7.0"
   },
   "dependencies": {
-    "@picocss/pico": "^1.4.1"
+    "@picocss/pico": "^1.4.1",
+    "bootstrap": "^5.1.3"
   }
 }

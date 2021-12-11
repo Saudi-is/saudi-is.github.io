@@ -3,7 +3,7 @@
 }
 
 #app {
-  text-align: center;
+  text-align: left;
 }
 
 nav ol:last-of-type, nav ul:last-of-type {
@@ -32,10 +32,15 @@ nav li.brand img  {
   max-height: 2rem;
 }
 
-.card {
-  text-align: center;
+.card img {
+  max-height: 440px;
 }
 
-.card > img {
-  max-height: 440px;
+.card section {
+  margin-bottom: 0;
+}
+
+.card section h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
